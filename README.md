@@ -1,8 +1,8 @@
-## Welcome to GitHub Pages
+## Yoni Shpund
 
-You can use the [editor on GitHub](https://github.com/YoniShpund/github-pages-with-jekyll/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Wireless and RF software engineer, have developed numerous advanced systems in Java, C, HTML, JavaScript, JQuery, AngularJS, Python and ASP.NET. Experienced in building Desktop, WEB, and embedded applications for both Linux and Windows operating systems. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
 
 ### Markdown
 
