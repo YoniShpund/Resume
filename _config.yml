@@ -1,13 +1,31 @@
-theme: jekyll-theme-minimal
-title: Yoni Shpund Resume
-author: Yoni Shpund
-email: shpundyoni@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+# Site settings
+title: "Yoni Shpund Resume"
+# description: "You can add here description of the page"
 
-# social links
-github_username:  YoniShpund # DO NOT include the @ character, or else the build will fail!
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
 
-show_excerpts: true # set to false to remove excerpts on the homepage
+# Resume settings
+resume_avatar:                  "false"
+resume_name:                    "Yoni Shpund"
+resume_title:                   "Software Engineer & Team Lead"
+
+# used for the contact button in _layouts/resume.html
+resume_contact_email:           "shpundyoni@gmail.com"
+
+# the next two items are used for schema itemprops in _layouts/resume.html
+resume_contact_telephone:       "+972-54-5317440"
+resume_contact_address:         "Holon, Israel"
+
+resume_header_contact_info:     "Holon, Israel • +972-54-5317440 • shpundyoni@gmail.com"
+display_header_contact_info:    "true"
+
+# Design settings
+resume_theme:                   default
+
+# Note: when editing locally, remember to restart
+# your Jekyll server when you edit this file. Changes
+# to _config.yml are only recognized when the server starts

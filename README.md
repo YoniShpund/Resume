@@ -1,37 +1,45 @@
-## Yoni Shpund
+# Resume
 
-Wireless and RF software engineer, have developed numerous advanced systems in Java, C, HTML, JavaScript, JQuery, AngularJS, Python and ASP.NET. Experienced in building Desktop, WEB, and embedded applications for both Linux and Windows operating systems. 
+*A simple Jekyll + GitHub Pages powered resume.*
 
+### Customizing
 
+First you'll want to fork the repo to your own account. Then clone it locally and customize, or use the GitHub web editor to customize.
 
-### Markdown
+#### Options/Configuration
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Most of the customization will take place in the `/_config.yml` file. Here is a list of customizations available via `/_config.yml`:
+- title
+- resume_name
+- resume_title
 
-```markdown
-Syntax highlighted code block
+#### Editing content
 
-# Header 1
-## Header 2
-### Header 3
+Most of the content configuration will take place in the `/_layouts/resume.html` file. Simply edit the markup there accordingly.
 
-- Bulleted
-- List
+### Publishing to GitHub Pages for free
 
-1. Numbered
-2. List
+[GitHub Pages](https://pages.github.com/) will host this for free with your GitHub account. Just make sure you're using a `gh-pages` branch, and the site will automatically be available at `<yourusername>.github.io/Resume`. You can also add a CNAME if you want it to be available at a custom domain...
 
-**Bold** and _Italic_ and `Code` text
+### Configuring with your own domain name
 
-[Link](url) and ![Image](src)
-```
+To setup your GH Pages site with a custom domain, [follow the instructions](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/) on the GitHub Help site for that topic.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Themes
 
-### Jekyll Themes
+Right now resume-template only has one theme. More are coming :soon:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/YoniShpund/github-pages-with-jekyll/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Features
 
-### Support or Contact
+If you have features suggestions, please [open a new issue](https://github.com/YoniShpund/Resume/issues/new).
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Contributing
+
+If you spot a bug, or want to improve the code, or even make the dummy content better, you can do the following:
+
+1. [Open an issue](https://github.com/YoniShpund/Resume/issues/new) describing the bug or feature idea
+2. Fork the project, make changes, and submit a pull request
+
+## License
+
+The code and styles are licensed under the MIT license.
