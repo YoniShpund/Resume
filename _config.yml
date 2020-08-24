@@ -23,8 +23,16 @@ resume_contact_address:         "Holon, Israel"
 resume_header_contact_info:     "Holon, Israel • +972-54-5317440 • shpundyoni@gmail.com"
 display_header_contact_info:    "true"
 
-# Design settings
-resume_theme:                   default
+# This is the executive summary. You should write a few brief, concise, 
+# and meaningful sentences about yourself from a professional context, and your immediate career goals. 
+# Make the length appropriate for your needs, but keep it brief and concise
+resume_header_intro: "<p>Wireless and RF software engineer, have developed numerous advanced systems in Java, C, HTML, JavaScript, JQuery, AngularJS, Python and ASP.NET. 
+Experienced in building Desktop, WEB, and embedded applications for both Linux and Windows operating systems.</p>"
+
+# Use "yes" to display the email contact button,
+# "no" to display an "I'm not looking for work" message,
+# or remove/comment the resume_looking_for_work option entirely to leave blank
+resume_looking_for_work:        "no"
 
 # Note: when editing locally, remember to restart
 # your Jekyll server when you edit this file. Changes
