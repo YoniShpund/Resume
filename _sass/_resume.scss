@@ -128,6 +128,11 @@
   }
 
   &.not-looking { width: 400px; }
+
+  &.not-looking:hover { 
+    background-color: #efefef;
+    color: #333;
+   }
 }
 
 // resume content styles

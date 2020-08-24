@@ -32,7 +32,7 @@ Experienced in building Desktop, WEB, and embedded applications for both Linux a
 # Use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
 # or remove/comment the resume_looking_for_work option entirely to leave blank
-resume_looking_for_work:        "no"
+resume_looking_for_work:        "yes"
 
 # Note: when editing locally, remember to restart
 # your Jekyll server when you edit this file. Changes
