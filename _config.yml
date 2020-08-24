@@ -47,21 +47,18 @@ resume_section_education:       true
 
 information:
   - experience:
-    - company: "Mobilicom"
-      # position: "Software Engineer & Team Lead"
-      # duration: "Oct 2019 – Present"
-      # summary: "• Manage a team of 3 Senior Developers, with agile methodology, to effectively execute 5 projects with 100% on-time delivery while achieving a cost-reduction of 20%."
-# • Participating in the recruitment process.
-# • Write software designs.
-
-# • C - Developing client-side libraries across the system to reduce additional costs involved in using third-party libraries
-# • Linux - Research the Linux kernel of the system and add functionalities to harden it and make it more compatible with a real-time system, using kernel configuration and ARM compilation flags.
-# • Python – Gathered and defined customer requirements to develop clear specifications for creating well-organized project plans to help to reduce the time for QA testing by 60%. Manage a developer and participating in building the system.
-# • Java + Web Applications - Continue development and maintenance.
-
-# • Scripts/UI: JavaScript, JQuery, Python, Bash/Shell
-# • Versioning and other tools: Git, SVN, Jira, OpenVPN
-# • Development Environments: NetBeans, Eclipse, VS Code."
+    - {
+      company: "Mobilicom",
+      position: "Software Engineer & Team Lead",
+      duration: "Oct 2019 – Present",
+      summary: "• Manage a team of 3 Senior Developers, with agile methodology, to effectively execute 5 projects with 100% on-time delivery while achieving a cost-reduction of 20%.\n• Participating in the recruitment process.\n• Write software designs.\n\n• C - Developing client-side libraries across the system to reduce additional costs involved in using third-party libraries\n• Linux - Research the Linux kernel of the system and add functionalities to harden it and make it more compatible with a real-time system, using kernel configuration and ARM compilation flags.\n• Python – Gathered and defined customer requirements to develop clear specifications for creating well-organized project plans to help to reduce the time for QA testing by 60%. Manage a developer and participating in building the system.\n• Java + Web Applications - Continue development and maintenance.\n\n• Scripts/UI: JavaScript, JQuery, Python, Bash/Shell\n• Versioning and other tools: Git, SVN, Jira, OpenVPN\n• Development Environments: NetBeans, Eclipse, VS Code."
+      }
+    - {
+      company: "Mobilicom",
+      position: "Software Engineer & Team Lead",
+      duration: "Oct 2019 – Present",
+      summary: "• Manage a team of 3 Senior Developers, with agile methodology, to effectively execute 5 projects with 100% on-time delivery while achieving a cost-reduction of 20%."
+    }
 
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
