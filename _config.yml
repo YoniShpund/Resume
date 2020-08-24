@@ -48,9 +48,9 @@ resume_section_education:       true
 information:
   - experience:
     - company: "Mobilicom"
-      position: "Software Engineer & Team Lead"
-      duration: "Oct 2019 – Present"
-      summary: "• Manage a team of 3 Senior Developers, with agile methodology, to effectively execute 5 projects with 100% on-time delivery while achieving a cost-reduction of 20%."
+      # position: "Software Engineer & Team Lead"
+      # duration: "Oct 2019 – Present"
+      # summary: "• Manage a team of 3 Senior Developers, with agile methodology, to effectively execute 5 projects with 100% on-time delivery while achieving a cost-reduction of 20%."
 # • Participating in the recruitment process.
 # • Write software designs.
 
