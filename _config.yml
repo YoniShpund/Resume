@@ -37,7 +37,7 @@ resume_looking_for_work:        "yes"
 # Decide which sections to use
 # comment out to hide
 resume_section_experience:      true
-resume_section_education:       true
+# resume_section_education:       true
 # resume_section_projects:        true
 # resume_section_skills:          true
 # resume_section_recognition:     true
@@ -47,11 +47,28 @@ resume_section_education:       true
 
 information:
   experience:
+    # Start of Experience
     - company: "Mobilicom"
       position: "Software Engineer & Team Lead"
       duration: "Oct 2019 – Present"
-      summary: "• Manage a team of 3 Senior Developers, with agile methodology, to effectively execute 5 projects with 100% on-time delivery while achieving a cost-reduction of 20%.\n• Participating in the recruitment process.\n• Write software designs.\n\n• C - Developing client-side libraries across the system to reduce additional costs involved in using third-party libraries\n• Linux - Research the Linux kernel of the system and add functionalities to harden it and make it more compatible with a real-time system, using kernel configuration and ARM compilation flags.\n• Python – Gathered and defined customer requirements to develop clear specifications for creating well-organized project plans to help to reduce the time for QA testing by 60%. Manage a developer and participating in building the system.\n• Java + Web Applications - Continue development and maintenance.\n\n• Scripts/UI: JavaScript, JQuery, Python, Bash/Shell\n• Versioning and other tools: Git, SVN, Jira, OpenVPN\n• Development Environments: NetBeans, Eclipse, VS Code."
-
+      summary: "• Manage a team of 3 Senior Developers, with agile methodology, to effectively execute 5 projects with 100% on-time delivery while achieving a cost-reduction of 20%.<br>• Participating in the recruitment process.<br>• Write software designs.<br><br>• C - Developing client-side libraries across the system to reduce additional costs involved in using third-party libraries<br>• Linux - Research the Linux kernel of the system and add functionalities to harden it and make it more compatible with a real-time system, using kernel configuration and ARM compilation flags.<br>• Python – Gathered and defined customer requirements to develop clear specifications for creating well-organized project plans to help to reduce the time for QA testing by 60%. Manage a developer and participating in building the system.<br>• Java + Web Applications - Continue development and maintenance.<br><br>• Scripts/UI: JavaScript, JQuery, Python, Bash/Shell<br>• Versioning and other tools: Git, SVN, Jira, OpenVPN<br>• Development Environments: NetBeans, Eclipse, VS Code."
+    - company: "Mobilicom"
+      position: "Junior Software Engineer"
+      duration: "Jul 2019 – Oct 2019"
+      summary: "• AngularJS, JQuery – Integrate AngularJS and JQuery into a working system and improve the efficiency of the whole WEB application by 40%, using JSON objects, and HTTP communication protocol.<br>• Java - Implement an internal database that manages the supplies of the company along with a desktop application that runs it.<br>• C, HTML + CSS, JavaScript - Continue all the development and support from my internship.<br><br>• Scripts/UI: JavaScript, JQuery, Bash/Shell<br>• Versioning and other tools: Git, SVN<br>• Development Environments: NetBeans, Eclipse."
+    - company: "Mobilicom"
+      position: "Software Engineer Intern"
+      duration: "Aug 2017 – Jul 2019"
+      summary: "• Java - Create, from scratch, a multithreaded application, that uses TCP/IP communication, to allow the ability to control the Mesh network. Research and integrate with the OSM API to help the user see the whole Mesh updated on the map, using the GPS location of the devices.<br>• C, HTML + CSS, JavaScript - Create web and embedded applications that communicate using the HTTP and TCP/IP protocols to deliver information and configuration to and from the user.<br>• Evaluated project requirements and specifications and developed software applications that surpassed client expectations.<br><br>• Scripts/UI: JavaScript, Bash/Shell<br>• Versioning and other tools: Git, SVN<br>• Development Environments: NetBeans, Eclipse."
+    - company: "Aplit-Soft"
+      position: "Software Engineer Intern"
+      duration: "May 2016 – Jun 2017"
+      summary: "• Designed a web page that communicates with a server using the HTTP protocol.<br>The page displays information from a connected device.<br>• QA - Test software, report defects and investigate the root cause as well as finding solutions.<br>• C# - Create a test application that checks the maximal capabilities of the hardware.<br>"
+    - company: "Israel Defence Forces"
+      position: "Operations Department Sergeant"
+      duration: "Mar 2012 – Mar 2015"
+      summary: "• Managed a group of 10 soldiers to achieve maximum efficiency on the field.<br>• Assessed ongoing risk factors and suggested improvements to senior management.<br>• Recorded incident reports with detailed accounts of occurrences.<br>• Developed improved training methods with a focus on public safety and officer awareness."
+    # End of Experience
 
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
