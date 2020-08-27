@@ -26,7 +26,7 @@ display_header_contact_info:    "true"
 # This is the executive summary. You should write a few brief, concise, 
 # and meaningful sentences about yourself from a professional context, and your immediate career goals. 
 # Make the length appropriate for your needs, but keep it brief and concise
-resume_header_intro: "<p>Wireless and RF software engineer, have developed numerous advanced systems in Java, C, HTML, JavaScript, JQuery, AngularJS, Python and ASP.NET. 
+resume_header_intro: "<p>Wireless and RF software engineer, have developed numerous advanced systems in Java, C, HTML, JavaScript, JQuery, AngularJS, and Python. 
 Experienced in building Desktop, WEB, and embedded applications for both Linux and Windows operating systems.</p>"
 
 # Use "yes" to display the email contact button,
@@ -54,6 +54,7 @@ information:
       summary: "• Manage a team of 3 Senior Developers, with agile methodology, to effectively execute 5 projects with 100% on-time delivery while achieving a cost-reduction of 20%.<br>• Participating in the recruitment process.<br>• Write software designs.<br><br>• C - Developing client-side libraries across the system to reduce additional costs involved in using third-party libraries<br>• Linux - Research the Linux kernel of the system and add functionalities to harden it and make it more compatible with a real-time system, using kernel configuration and ARM compilation flags.<br>• Python – Gathered and defined customer requirements to develop clear specifications for creating well-organized project plans to help to reduce the time for QA testing by 60%. Manage a developer and participating in building the system.<br>• Java + Web Applications - Continue development and maintenance.<br><br>• Scripts/UI: JavaScript, JQuery, Python, Bash/Shell<br>• Versioning and other tools: Git, SVN, Jira, OpenVPN<br>• Development Environments: NetBeans, Eclipse, VS Code."
       link:
         - "https://www.skyhopper.biz/products/controlling-systems/"
+        - "https://www.skyhopper.biz/products/video-processing-analytics/"
     - company: "Mobilicom"
       position: "Junior Software Engineer"
       duration: "Jul 2019 – Oct 2019"
@@ -62,6 +63,9 @@ information:
       position: "Software Engineer Intern"
       duration: "Aug 2017 – Jul 2019"
       summary: "• Java - Create, from scratch, a multithreaded application, that uses TCP/IP communication, to allow the ability to control the Mesh network. Research and integrate with the OSM API to help the user see the whole Mesh updated on the map, using the GPS location of the devices.<br>• C, HTML + CSS, JavaScript - Create web and embedded applications that communicate using the HTTP and TCP/IP protocols to deliver information and configuration to and from the user.<br>• Evaluated project requirements and specifications and developed software applications that surpassed client expectations.<br><br>• Scripts/UI: JavaScript, Bash/Shell<br>• Versioning and other tools: Git, SVN<br>• Development Environments: NetBeans, Eclipse."
+      link:
+        - "https://www.mobilicom.com/mobilicom-software-management-solutions"
+        - "https://www.mobilicom.com/mobilicom-element-management-application-solution-mc-ema-0"
     - company: "Aplit-Soft"
       position: "Software Engineer Intern"
       duration: "May 2016 – Jun 2017"
@@ -91,3 +95,6 @@ resume_theme:                   default
 # Note: when editing locally, remember to restart
 # your Jekyll server when you edit this file. Changes
 # to _config.yml are only recognized when the server starts
+# 
+# To run the server locally run this command (from the root directory):
+# bundle exec jekyll serve

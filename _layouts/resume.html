@@ -3,6 +3,22 @@
 
 {% include head.html %}
 
+<!-- Microlink SDK Vanilla/UMD bundle -->
+<script src="https://cdn.jsdelivr.net/npm/react@16/umd/react.production.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/react-dom@16/umd/react-dom.production.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/styled-components@4/dist/styled-components.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@microlink/vanilla@4.0.0-alpha.3/dist/microlink.min.js"></script>
+
+<!-- Replace all elements with `link-preview` class -->
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+    microlink('.link-preview-selector', {
+      media: ['video', 'audio', 'image', 'logo'],
+      size: 'normal'
+    });
+  })
+</script>
+
 <body class="theme-{% if site.resume_theme %}{{ site.resume_theme }}{% endif %}">
 
   <div class="wrapper" itemscope itemtype="http://schema.org/Person">
@@ -61,11 +77,13 @@
         <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
         <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
         <p class="resume-item-copy">{{ job.summary }}</p>
+        <br>
         {% for link in job.link %}
-        <ul class="icon-links link-preview-selector">
-          <li class="icon-link-item"><a href="{{ link }}" class="icon-link" itemprop="sameAs"></a></li>
+        <ul style="list-style: none;">
+          <li><a href="{{ link }}" class="link-preview-selector"></a></li>
         </ul>
-        {% endif %}
+        {% endfor %}
+        <br>
       </div><!-- end of resume-item -->
       {% endfor %}
 
@@ -103,9 +121,6 @@
     <!-- end Education -->
     {% endif %}
   </div>
-
-  <!-- MUST be last in order to have previews of the selected links -->
-  <script async src="https://guteurls.de/guteurls.js" selector=".link-preview-selector"></script>
 </body>
 
 </html>
