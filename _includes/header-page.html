@@ -1,7 +1,6 @@
 <header id="header">
     {% if site.resume_avatar %}
     <div class="logo">
-        <!-- <span class="icon fa-gem"></span> -->
         <img class="logo" src="image/avatar.jpg" alt="Avatar" />
     </div>
     {% endif %}
@@ -16,13 +15,19 @@
             {% endif %}
 
             <p>{{ site.resume_header_intro }}</p>
+
+            {% if site.resume_looking_for_work %}
+            <p>I am open to hear about new opportunities, please <a href="#contact">contact me</a>
+                <span class="icon fa-smile-beam"></span>
+            </p>
+            {% endif %}
         </div>
     </div>
     <nav>
         <ul>
-            <li><a href="#intro">Intro</a></li>
-            <li><a href="#work">Work</a></li>
             <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
             <li><a href="#contact">Contact</a></li>
             <li><a href="#elements">Elements</a></li>
         </ul>
