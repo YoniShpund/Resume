@@ -8,14 +8,14 @@ First you'll want to fork the repo to your own account. Then clone it locally an
 
 #### Options/Configuration
 
-Most of the customization will take place in the `/_config.yml` file. Here is a list of customizations available via `/_config.yml`:
+Most of the customization will take place in the `_config.yml` file. Here is a list of customizations available via `_config.yml`:
 - title
 - resume_name
 - resume_title
 
 #### Editing content
 
-Most of the content configuration will take place in the `/_layouts/resume.html` file. Simply edit the markup there accordingly.
+Most of the content configuration will take place in the `/_layouts/resume.html` file. Simply edit the HTML file accordingly.
 
 ### Publishing to GitHub Pages for free
 
@@ -25,9 +25,6 @@ Most of the content configuration will take place in the `/_layouts/resume.html`
 
 To setup your GH Pages site with a custom domain, [follow the instructions](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/) on the GitHub Help site for that topic.
 
-### Themes
-
-Right now resume-template only has one theme. More are coming :soon:
 
 ## Features
 
@@ -40,6 +37,11 @@ If you spot a bug, or want to improve the code, or even make the dummy content b
 1. [Open an issue](https://github.com/YoniShpund/Resume/issues/new) describing the bug or feature idea
 2. Fork the project, make changes, and submit a pull request
 
-## License
+## Citation
 
-The code and styles are licensed under the MIT license.
+- [HTML5UP](https://html5up.net/) - Help with initial style of the web site
+- Font Awesome Free 5.14.0 by [@fontawesome](https://fontawesome.com) for the icons
+- [goVamilla](https://github.com/goVanilla) - Pure [JavaScript library](https://github.com/goVanilla/leps-slider) for the content slider
+
+## License
+The code and styles are licensed under the [MIT License](LICENSE).
