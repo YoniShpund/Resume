@@ -2,3 +2,4 @@ _site/
 _site/*
 Gemfile.lock
 .sass-cache/
+_sass/dist/
