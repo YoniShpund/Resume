@@ -1,12 +1,15 @@
 <header id="header">
+    {% if site.resume_avatar %}
     <div class="logo">
-        <span class="icon fa-gem"></span>
+        <!-- <span class="icon fa-gem"></span> -->
+        <img class="logo" src="image/avatar.jpg" alt="Avatar" />
     </div>
+    {% endif %}
     <div class="content">
         <div class="inner">
             <h1>{{ site.resume_name }}</h1>
 
-            {% if site.display_header_contact_info == 'true' %}
+            {% if site.display_header_contact_info %}
             <div class="header-contact-info">
                 <p>{{ site.resume_header_contact_info }}</p>
             </div>
