@@ -385,4 +385,6 @@
 			$main._show(location.hash.substr(1), true);
 		});
 
+	/* Create slider for the experience section */
+	new lepsSlider();
 })(jQuery);
