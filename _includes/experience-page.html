@@ -1,0 +1,18 @@
+<h2 class="major">Experience</h2>
+
+<div id="leps-slider">
+    {% for job in site.information.experience %}
+    <div itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+        <h3 itemprop="name">{{ job.company }}</h3>
+        <h4 itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
+        <p>{{ job.summary }}</p>
+        <br>
+        {% for link in job.link %}
+        <ul style="list-style: none;">
+            <li><a href="{{ link }}" class="link-preview-selector"></a></li>
+        </ul>
+        {% endfor %}
+        <br>
+    </div>
+    {% endfor %}
+</div>

@@ -54,7 +54,8 @@
 
 	// Main.
 	var delay = 325,
-		locked = false;
+		locked = false, 
+		Slider = null;
 
 	// Methods.
 	$main._show = function (id, initial = false) {
@@ -180,7 +181,14 @@
 				}, 25);
 
 			}, delay);
+
+
 		} while (false);
+
+		if ((id === "experience") && (null === Slider)) {
+			/* Create slider for the experience section */
+			Slider = new lepsSlider();
+		}
 	};
 
 	$main._hide = function (addState) {
@@ -385,6 +393,4 @@
 			$main._show(location.hash.substr(1), true);
 		});
 
-	/* Create slider for the experience section */
-	new lepsSlider();
 })(jQuery);

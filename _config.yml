@@ -8,10 +8,12 @@ sass:
   sass_dir: _sass
   style: compressed
 
+########### Home Page 
+
 # Resume settings
 resume_avatar:                  true
 resume_name:                    "Yoni Shpund"
-resume_title:                   "Software Engineer & Team Lead"
+resume_title:                   "Software Engineer"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "shpundyoni@gmail.com"
@@ -32,7 +34,15 @@ Experienced in building Desktop, WEB, and embedded applications for both Linux a
 # Use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
 # or remove/comment the resume_looking_for_work option entirely to leave blank
-resume_looking_for_work:        "yes"
+resume_looking_for_work:        true
+
+
+########### About Page 
+resume_about: 'My name is Yoni and I am a software enginner from Holon, Israel, the start-up nation <span class="fas fa-star-of-david"></span><br>
+I am not sure how to call myself since I do backend, frontend and now thanks to Mobilicom, embedded C.<br>
+I work on Linux Real-Time systems, write documents, create and maintain web and desktop applications, and work on system designs.<br><br>
+Feel free to <a href="#contact">contact me</a> about anything. I am open to any kind of conversation.'
+
 
 # Decide which sections to use
 # comment out to hide
